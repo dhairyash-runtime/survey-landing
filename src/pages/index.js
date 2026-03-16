@@ -13,13 +13,23 @@ const index = () => {
   return (
     <div className="font-['Poppins']">
       <Navbar />
-      <Hero />
-      <Features />
+      <div id="home">
+        <Hero />
+      </div>
+      <div id="features">
+        <Features />
+      </div>
       <Risks />
       <FeaturesModule />
-      <Benefits />
-      <Collaborations />
-      <Blogs />
+      <div id="benefits">
+        <Benefits />
+      </div>
+      <div id="collaborations">
+        <Collaborations />
+      </div>
+      <div id="blogs">
+        <Blogs />
+      </div>
       <Footer />
 
     </div>

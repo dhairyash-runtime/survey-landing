@@ -108,7 +108,7 @@ const Features = () => {
                         }}
                     >
                         <img
-                            src="/api_manager_screenshot2.jpg"
+                            src="/survey_hero.png"
                             alt="Survey Management Dashboard"
                             className="w-full h-auto block mb-[30px] rounded-b-2xl object-cover"
                             onError={(e) => {

@@ -10,24 +10,24 @@ const BLOGS = [
         title: 'How Enterprise Survey Platforms Transform Data Collection',
         description:
             'Discover how structured survey management with role-based access and real-time analytics drives better decision-making...',
-        image: '/blog1.jpg',
-        link: '#',
+        image: '/blog1.png',
+        link: '/blog/blog-1',
     },
     {
         id: 'blog-2',
         title: 'Offline Data Collection: A Game Changer for Field Research',
         description:
             'Learn how mobile-first survey apps with offline capability and geo-tagging are revolutionizing field research campaigns...',
-        image: '/blog2.jpg',
-        link: '#',
+        image: '/blog2.png',
+        link: '/blog/blog-2',
     },
     {
         id: 'blog-3',
         title: 'QR Code Surveys: The Modern Way to Collect Feedback',
         description:
             'QR-based survey access is changing how organizations gather data at events, retail locations, and public spaces...',
-        image: '/blog3.jpg',
-        link: '#',
+        image: '/blog3.png',
+        link: '/blog/blog-3',
     },
 ];
 
@@ -100,7 +100,6 @@ const Blogs = () => {
                         <a
                             key={id}
                             href={link}
-                            target="_blank"
                             rel="noopener noreferrer"
                             ref={(el) => (cardRefs.current[i] = el)}
                             onMouseEnter={() => setIsHovered(true)}
